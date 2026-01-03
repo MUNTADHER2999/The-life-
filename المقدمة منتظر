@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول • Instagram</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-box {
+            background-color: white;
+            border: 1px solid #dbdbdb;
+            width: 350px;
+            padding: 40px;
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 30px;
+            width: 175px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #dbdbdb;
+            background-color: #fafafa;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border-radius: 8px;
+            background-color: #0095f6;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:disabled {
+            background-color: #b2dffc;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #8e8e8e;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-box">
+    <h1 style="font-style: italic; font-family: 'Times New Roman', serif;">Instagram</h1>
+    
+    <form>
+        <input type="text" placeholder="اسم المستخدم أو الهاتف">
+        <input type="password" placeholder="كلمة السر">
+        <button type="button">تسجيل الدخول</button>
+    </form>
+
+    <div class="footer">
+        ليس لديك حساب؟ <a href="#" style="color: #0095f6; text-decoration: none; font-weight: bold;">سجل الآن</a>
+    </div>
+</div>
+
+</body>
+</html>

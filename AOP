@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتظر محمد | للمقالات والمواضيع</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+        header {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        nav {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            color: #1a2a6c;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .main-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .post-title {
+            color: #b21f1f;
+            border-right: 5px solid #b21f1f;
+            padding-right: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>منتظر محمد</h1>
+    <p>فكر.. ثقافة.. ومعرفة</p>
+</header>
+
+<nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">مقالاتي</a>
+    <a href="#">عن الكاتب</a>
+    <a href="#">اتصل بي</a>
+</nav>
+
+<div class="main-container">
+    <h2 class="post-title">مرحباً بكم في موقعي الجديد</h2>
+    <p>هنا سأشارككم خلاصة أفكاري ومواضيعي الثقافية. ترقبوا أول مقال قريباً جداً!</p>
+    <hr>
+    <p style="text-align:center; color:#777;">قيد التطوير بواسطة الذكاء الاصطناعي</p>
+</div>
+
+<footer>
+    &copy; 2026 جميع الحقوق محفوظة للكاتب منتظر محمد
+</footer>
+
+</body>
+</html>
